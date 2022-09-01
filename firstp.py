@@ -18,7 +18,9 @@ class Car:
 
 
 def main():
-    car1=Car("BENZ","C200")
+    uname=input("Enter name of  the car:")
+    model=input("Enter the model:")
+    car1=Car(uname,model)
     print(car1)
 
 
