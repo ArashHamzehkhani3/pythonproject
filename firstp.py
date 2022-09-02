@@ -10,6 +10,13 @@ class Car:
         return(f"{self.name},model is:,{self.model}")
 
 
+    def start(self,fuel):
+        self.fuel=fuel
+
+        print(f"Engine have started with{self.fuel}")
+
+
+
 
 
 
@@ -22,6 +29,7 @@ def main():
     model=input("Enter the model:")
     car1=Car(uname,model)
     print(car1)
+    car1.start(40)
 
 
 
